@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Registration Form</h1>
+    <form id="registrationForm" action="/submit" method="POST">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" required></textarea>
+      </div>
+    
+      <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="state">State</label>
+        <input type="text" id="state" name="state" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="zipCode">Zip Code</label>
+        <input type="text" id="zipCode" name="zipCode" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="occupation">Occupation</label>
+        <input type="text" id="occupation" name="occupation" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="organization">Organization</label>
+        <input type="text" id="organization" name="organization">
+      </div>
+    
+      <div class="form-group">
+        <label for="education">Education</label>
+        <input type="text" id="education" name="education">
+      </div>
+    
+      <div class="form-group">
+        <label for="skills">Skills</label>
+        <textarea id="skills" name="skills"></textarea>
+      </div>
+    
+      <div class="form-group">
+        <label for="maritalStatus">Marital Status</label>
+        <select id="maritalStatus" name="maritalStatus">
+          <option value="">Select</option>
+          <option value="Single">Single</option>
+          <option value="Married">Married</option>
+          <option value="Divorced">Divorced</option>
+        </select>
+      </div>
+    
+      <div class="form-group">
+        <label for="languagesKnown">Languages Known</label>
+        <input type="text" id="languagesKnown" name="languagesKnown">
+      </div>
+    
+      <div class="form-group">
+        <label for="hobbies">Hobbies</label>
+        <textarea id="hobbies" name="hobbies"></textarea>
+      </div>
+    
+      <div class="form-group">
+        <label for="linkedinProfile">LinkedIn Profile</label>
+        <input type="text" id="linkedinProfile" name="linkedinProfile">
+      </div>
+    
+      <div class="form-group">
+        <label for="githubProfile">GitHub Profile</label>
+        <input type="text" id="githubProfile" name="githubProfile">
+      </div>
+    
+      <div class="form-group">
+        <label for="personalWebsite">Personal Website</label>
+        <input type="text" id="personalWebsite" name="personalWebsite">
+      </div>
+    
+      <div class="form-group">
+        <label for="emergencyContactName">Emergency Contact Name</label>
+        <input type="text" id="emergencyContactName" name="emergencyContactName" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="emergencyContactPhone">Emergency Contact Phone</label>
+        <input type="text" id="emergencyContactPhone" name="emergencyContactPhone" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        <textarea id="comment" name="comment"></textarea>
+      </div>
+    
+      <button type="submit">Submit</button>
+    </form>
+    
+  </div>
+</body>
+</html>
